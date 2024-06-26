@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AyudaController">
+   <children>
+      <AnchorPane id="anchorPane" prefHeight="450.0" prefWidth="450.0" stylesheets="@../css/application.css">
+         <children>
+            <TextArea id="textArea" fx:id="parrafo" layoutX="12.0" layoutY="127.0" prefHeight="293.0" prefWidth="427.0" stylesheets="@../css/application.css" text="Buscaminas Galactico es un videojuego para un jugador &#10;inventado en Era de la República (1019 – 32 ABY). El juego&#10;ha sido programado para muchos sistemas operativos &#10;interplanetarios, desarrollado por los Ingenieros de la resistencia &#10;pupular por agudizar los sentidos de los pilotos y aumentar la &#10;fuerza Jedi.&#10;&#10;El juego posee un sistema de récords para cada uno de Los&#10;3 niveles contra en imperio&#10;    Nivel principiante: 10 × 10 casillas y 8 minas.&#10;    Nivel intermedio: 10 × 10 casillas y 14 minas.&#10;    Nivel experto: 10 × 10 casillas y 20 minas.&#10;&#10;Jedi!!    &#10;Que la Fuerza este contigo en esta Batalla contra el imperio y &#10;sus lacallos. &#10;&#10;&#10;" AnchorPane.bottomAnchor="5.0" />
+            <Text fill="#e4e4e4" layoutX="28.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscaminas Galactico">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="93.0" fitWidth="136.0" layoutX="300.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/star%20wars%20archivos.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ToolBar id="barra" prefHeight="40.0" prefWidth="450.0" stylesheets="@../css/application.css">
+        <items>
+          <Button id="buttons" mnemonicParsing="false" onAction="#onExit" stylesheets="@../css/application.css" text="X" />
+            <Text fill="#e4e4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Ayuda" wrappingWidth="67.01953125">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="35.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="36.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/falcon1.jpeg" />
+               </image>
+            </ImageView>
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>

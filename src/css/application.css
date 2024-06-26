@@ -1,0 +1,77 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+
+#anchorPane{
+	-fx-background-color: #4A554D;
+}
+#barra{
+	-fx-background-color: #244C79;
+}
+
+#xRed, #X{
+	-fx-background-color: #FC3556;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;
+}
+
+#corner{
+	-fx-background-color: #00ff80;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;
+}
+#trianguloSuperior{
+	-fx-background-color: #A0A0A0;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;
+}
+#trianguloIzquiero{
+	-fx-background-color: #A0A0A0;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;
+}
+#trianguloDerecho{
+    -fx-background-color: #A0A0A0;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;	
+}
+#trianguloInferior{
+	-fx-background-color: #A0A0A0;
+	-fx-border-color:  #506062;
+    -fx-border-width: 0.3;	
+}
+
+#buttons{
+	-fx-background-color: #6BFABC;
+	-fx-border-width: 0.3;
+	-fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.gridPane{
+    -fx-background-color: #A0A0A0;
+}
+
+
+#labelLogin{
+	-fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FCFCFC;
+}
+#textArea{
+	-fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-border-color:  black;
+    -fx-border-width: 0.5;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+#scoreFalcon{
+	-fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: #00FF1A;
+}

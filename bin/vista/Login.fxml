@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.LoginController">
+   <children>
+      <AnchorPane id="anchorPane" prefHeight="250.0" prefWidth="450.0" stylesheets="@../css/application.css">
+         <children>
+            <Label id="labelLogin" layoutX="26.0" layoutY="114.0" stylesheets="@../css/application.css" text="Nombre Piloto?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nombre" layoutX="26.0" layoutY="143.0" prefHeight="24.0" prefWidth="235.0" />
+            <ImageView fitHeight="151.0" fitWidth="191.0" layoutX="328.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/yoda.jpeg" />
+               </image>
+            </ImageView>
+            <Button id="buttons" fx:id="botton" layoutX="34.0" layoutY="177.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="220.0" stylesheets="@../css/application.css" text="Submit" />
+            <Text id="labelLogin" fill="#66ff00" layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unirte a la FUERZA tu listo estar?" wrappingWidth="332.1796875" />
+         </children></AnchorPane>
+      <ToolBar id="barra" prefHeight="27.0" prefWidth="450.0">
+        <items>
+          <Button id="buttons" mnemonicParsing="false" onAction="#salida" stylesheets="@../css/application.css" text="X" />
+            <Label id="labelLogin" stylesheets="@../css/application.css" text="Login">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="34.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/falcon1.jpeg" />
+               </image>
+            </ImageView>
+        </items>
+         <stylesheets>
+            <URL value="@../css/style.css" />
+            <URL value="@../css/application.css" />
+         </stylesheets>
+      </ToolBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.JuegoController">
+   <children>
+      <AnchorPane id="anchorPane" prefHeight="620.0" prefWidth="420.0" stylesheets="@../css/application.css">
+         <children>
+            <GridPane fx:id="gridPane" layoutX="25.0" layoutY="196.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="0.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="40.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" percentHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button id="trianguloSuperior" layoutX="10.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" />
+                  <Button id="corner" layoutX="55.0" layoutY="18.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" stylesheets="@../css/application.css" />
+                  <Button id="trianguloSuperior" layoutX="100.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="55.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" />
+                  <Button id="trianguloSuperior" layoutX="145.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" />
+                  <Button id="trianguloSuperior" layoutX="190.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" />
+                  <Button id="trianguloSuperior" layoutX="235.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" />
+                  <Button id="trianguloSuperior" layoutX="280.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" />
+                  <Button id="trianguloSuperior" layoutX="325.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" />
+                  <Button id="X" layoutX="370.0" layoutY="18.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="1" />
+                  <Button id="corner" layoutX="10.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" />
+                  <Button id="xRed" layoutX="10.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="55.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="100.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="145.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="190.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="235.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Button id="trianguloSuperior" layoutX="280.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                  <Button id="xRed" layoutX="325.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <Button id="X" layoutX="370.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                  <Button id="trianguloDerecho" layoutX="415.0" layoutY="58.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="2" />
+                  <Button id="X" layoutX="10.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button id="xRed" layoutX="55.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button id="trianguloSuperior" layoutX="100.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button id="trianguloSuperior" layoutX="145.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button id="trianguloSuperior" layoutX="190.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button id="trianguloSuperior" layoutX="235.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button id="xRed" layoutX="280.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                  <Button id="X" layoutX="325.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                  <Button id="trianguloDerecho" layoutX="10.0" layoutY="98.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="3" />
+                  <Button id="trianguloDerecho" layoutX="10.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button id="X" layoutX="55.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button id="xRed" layoutX="100.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button id="trianguloSuperior" layoutX="145.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button id="trianguloSuperior" layoutX="190.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button id="xRed" layoutX="235.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button id="X" layoutX="280.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                  <Button id="trianguloIzquiero" layoutX="325.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                  <Button id="trianguloDerecho" layoutX="415.0" layoutY="138.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="4" />
+                  <Button id="trianguloDerecho" layoutX="10.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button id="trianguloDerecho" layoutX="55.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button id="X" layoutX="100.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button id="xRed" layoutX="145.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button id="xRed" layoutX="190.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button id="X" layoutX="235.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button id="trianguloIzquiero" layoutX="280.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <Button id="trianguloIzquiero" layoutX="325.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <Button id="trianguloDerecho" layoutX="415.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="5" />
+                  <Button id="trianguloDerecho" layoutX="10.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button id="trianguloDerecho" layoutX="55.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button id="X" layoutX="100.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button id="xRed" layoutX="145.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button id="xRed" layoutX="190.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button id="X" layoutX="235.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button id="trianguloIzquiero" layoutX="280.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                  <Button id="trianguloIzquiero" layoutX="325.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <Button id="trianguloDerecho" layoutX="415.0" layoutY="218.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="6" />
+                  <Button id="trianguloDerecho" layoutX="10.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button id="X" layoutX="55.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button id="xRed" layoutX="100.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button id="trianguloInferior" layoutX="145.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button id="trianguloInferior" layoutX="190.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button id="xRed" layoutX="235.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Button id="X" layoutX="280.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <Button id="trianguloIzquiero" layoutX="325.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <Button id="trianguloDerecho" layoutX="415.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="7" />
+                  <Button id="X" layoutX="10.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Button id="xRed" layoutX="55.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Button id="trianguloInferior" layoutX="100.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Button id="trianguloInferior" layoutX="145.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <Button id="X" layoutX="190.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="8" />
+                  <Button id="xRed" layoutX="10.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="55.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="100.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="145.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <Button id="corner" layoutX="190.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="10.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="55.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="100.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="145.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="190.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <Button id="trianguloInferior" layoutX="235.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <Button id="xRed" layoutX="280.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <Button id="X" layoutX="325.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Button id="trianguloIzquiero" layoutX="370.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <Button id="trianguloInferior" layoutX="415.0" layoutY="298.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="235.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="280.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                  <Button id="xRed" layoutX="325.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <Button id="X" layoutX="370.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <Button id="trianguloInferior" layoutX="415.0" layoutY="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="235.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="280.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                  <Button id="trianguloInferior" layoutX="325.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <Button id="corner" layoutX="370.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" stylesheets="@../css/application.css" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+            <ImageView fx:id="imageDerecha" fitHeight="114.0" fitWidth="114.0" layoutX="289.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/C3POsolo.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageIzquierda" fitHeight="114.0" fitWidth="123.0" layoutX="17.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/DarthVader1.jpeg" />
+               </image>
+            </ImageView>
+            <Label id="labelLogin" layoutX="179.0" layoutY="107.0" stylesheets="@../css/application.css" text="SCORE" />
+            <Text fx:id="score" fill="#f51212" layoutX="185.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="00000">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Label id="scoreFalcon" layoutX="91.0" layoutY="48.0" stylesheets="@../css/application.css" text="Que la Fuerza este contigo!!" />
+         </children>
+      </AnchorPane>
+      <ToolBar id="barra" prefHeight="38.0" prefWidth="420.0" stylesheets="@../css/application.css">
+        <items>
+          <Button id="buttons" mnemonicParsing="false" onAction="#exit" stylesheets="@../css/application.css" text="X" />
+            <Button id="buttons" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" onAction="#ayuda" stylesheets="@../css/application.css" text="Ayuda" />
+            <Button id="buttons" layoutX="88.0" layoutY="10.0" mnemonicParsing="false" onAction="#showPuntuacion" stylesheets="@../css/application.css" text="Score" />
+            <ComboBox id="buttons" fx:id="nivel" prefHeight="25.0" prefWidth="134.0" promptText="Nivel" stylesheets="@../css/application.css" />
+            <ImageView fitHeight="32.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="32.0" fitWidth="49.0" layoutX="310.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../recursos/falcon1.jpeg" />
+               </image>
+            </ImageView>
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
